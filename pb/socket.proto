@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package pb;
+
+service SocketService {
+  rpc Transport(stream Request) returns (stream Payload) {}
+}
+message Request {
+  string message = 1;
+}
+
+message Payload {
+  string message = 1;
+}
