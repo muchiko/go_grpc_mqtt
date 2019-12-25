@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/muchiko/go_grpc_chat/server"
+	"github.com/muchiko/go_grpc_mqtt/server"
 )
 
 func main() {

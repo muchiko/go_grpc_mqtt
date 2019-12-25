@@ -1,4 +1,4 @@
-module github.com/muchiko/go_grpc_chat
+module github.com/muchiko/go_grpc_mqtt
 
 go 1.13
 
