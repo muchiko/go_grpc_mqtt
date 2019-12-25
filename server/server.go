@@ -1,4 +1,4 @@
-package main
+package server
 
 import (
 	"fmt"
@@ -11,7 +11,7 @@ import (
 	"google.golang.org/grpc"
 )
 
-func main() {
+func Run() {
 	lis, err := net.Listen("tcp", ":50080")
 	if err != nil {
 		log.Fatal(err)
