@@ -8,7 +8,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/muchiko/go_grpc_mqtt/pb"
+	"github.com/muchiko/go_grpc_chat/pb"
 	"google.golang.org/grpc"
 )
 

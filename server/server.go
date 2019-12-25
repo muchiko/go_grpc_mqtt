@@ -7,7 +7,7 @@ import (
 	"net"
 
 	mqtt "github.com/eclipse/paho.mqtt.golang"
-	"github.com/muchiko/go_grpc_mqtt/pb"
+	"github.com/muchiko/go_grpc_chat/pb"
 	"google.golang.org/grpc"
 )
 

@@ -1,4 +1,4 @@
-# go_grpc_mqtt
+# go_grpc_chat
 
 ```
 brew install mosquitto
